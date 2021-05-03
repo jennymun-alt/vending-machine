@@ -1,0 +1,19 @@
+Usage:
+- Would be nice to display the quantity for option 1 (Display Vending Machine Items)
+
+- Your out of stock message was funny :D , but I would prefer a
+more professional sounding message like - "Out of Stock"
+
+Code:
+- You have a lot of unused variables, unused methods and commented out code.
+
+- Even though your code works, you should consider creating a hierarchy of
+products with an abstract products class and concrete sub-classes for gum,
+drink, chips, and candy.
+
+- From a design standpoint, consider separating your "presentation" code (like System outs)
+with the code that performs actual work and calculations. For instance, one way
+to do this would be to refactor the method pumpChange() so that it returns a String
+containing the change message instead of having the method void. pumpChange() would then
+be called by the CLI and its result stored into a String and printed out.
+
